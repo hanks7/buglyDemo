@@ -9,8 +9,8 @@ android {
         applicationId "com.home.onedemo"
         minSdkVersion 16
         targetSdkVersion 27
-        versionCode 11
-        versionName "1.1.1"
+        versionCode 14
+        versionName "1.1.4"
         multiDexEnabled true
 
     }
@@ -48,8 +48,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
-//    implementation project(':ptr-lib')
-    implementation files('libs/gson-2.2.4.jar')
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:25.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'

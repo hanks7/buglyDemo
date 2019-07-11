@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.home.onedemo.utils;
+package com.home.onedemo.App;
 
 import android.content.Context;
 import android.content.res.Resources;

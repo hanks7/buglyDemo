@@ -7,7 +7,6 @@ import android.os.StrictMode;
 import android.support.multidex.MultiDex;
 import android.widget.Toast;
 
-import com.home.onedemo.utils.AppUtils;
 import com.tencent.bugly.Bugly;
 import com.tencent.bugly.beta.Beta;
 import com.tencent.bugly.beta.interfaces.BetaPatchListener;
@@ -77,7 +76,7 @@ public class MyApplication extends Application {
                 Toast.makeText(getApplicationContext(), "onPatchRollback", Toast.LENGTH_SHORT).show();
             }
         };
-        Bugly.init(this, "84654afda1", true);
+        Bugly.init(this, "68208e6ec2", true);
     }
 
     @Override
